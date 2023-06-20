@@ -1,0 +1,46 @@
+main{
+    background-color: #cb7bf1;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    min-height: 64vh;
+}
+.preguntas{
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.preguntas p{
+    font-size: 22.5px;
+    font-weight: bold;
+}
+.preguntas i{
+    width: 22.5px;
+    margin-left: 10px;
+}
+span{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.iconos{
+    width: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.iconos i{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+.iconos p{
+    width: 100%;
+    text-align: center;
+}

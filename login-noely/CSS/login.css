@@ -1,0 +1,98 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+*{
+    font-family: sans-serif;
+}
+body{
+    background-color: pink;
+}
+body img{
+    width: auto;
+    height: 100px;
+    border-radius: 200px;
+    display: block;
+    transform: translate(235%,20%);
+
+}
+body img:hover{
+    cursor: pointer;
+}
+header{
+    height: 10vh;
+    display: flex;
+    padding: 10px;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+i{
+font-size: 70PX;
+color: #ffffff;
+text-align: center;
+display: block;
+}
+.inicio{
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 45px;
+}
+header img{
+    width: auto;
+    height: 100px;
+    transform: translate(240%,40%);
+    border-radius: 40px;
+    padding-top: 1%;
+}
+.contenedor{
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #dd54f9;
+    border-radius: 200px;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form{
+    padding-top: 50px;
+    top: 50%;
+    left: 50%;
+    transform: translate(20%,0%);
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    color: #ffffff;
+
+    
+    
+}
+#username{
+    border-radius: 15px;
+    width: 7.8cm;
+    height: 1cm;
+ 
+
+}
+label{
+    font-size: 20px;
+    text-align: left;
+}
+#login{
+    background-color: rgb(7, 205, 255);
+    color: white;
+    border-radius: 25px;
+    width: auto;
+    height: 1.5cm;
+    transform: translate(140%,0%);
+    border: #000;
+    box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+
+
+}
+#login:hover{
+    cursor: pointer;
+}
+input{
+    text-align: center;
+    background-color: #ffffff;
+    
+    
+}

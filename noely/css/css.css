@@ -1,0 +1,93 @@
+@import "https://www.nerdfonts.com/assets/css/webfont.css";
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    height: 10vh;
+    display: flex;
+    padding: 10px;
+    background-color: pink;
+    justify-content: space-between;
+    align-items: center;
+}
+header *{
+    width: 20%;
+}
+header img{
+    height: 100%;
+    width: 20%;
+}
+.buscador{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.buscador input{
+    width: 70%;
+    height: 30%;
+    outline: none;
+    border: none;
+    margin-right: 10px;
+}
+header i{
+    font-size: 30px;
+}
+nav{
+    height: 5%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3762fb;
+}
+nav div{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+nav *{
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+}
+aside{
+    width: 200px;
+    background-color: rgb(252, 224, 229);
+    padding: 10px;
+}
+aside div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px 5px;
+}
+aside div i{
+    font-size: 50px;
+}
+.inicio{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.rosa{
+    width: 100%;
+    background-color: pink;
+    font-weight: bold;
+    font-size: 20px;
+}
+aside div a{
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    margin: 5px 0;
+    font-size: 20px;
+}
+.nf-cod-menu¿{
+    color: pink;
+}
+header img{
+    transform: translate(170%,0%);
+}

@@ -1,0 +1,61 @@
+.flores p{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+.contador{
+    font-size: 30px;
+    font-weight: bold;
+}
+.filas{
+    width: 100%;
+}
+.primera_fila, .segunda_fila{
+    width: calc(100% - 200px);
+    margin-left: 50px;
+}
+.primera_fila{
+    padding-top: 0%;
+}
+.primera_fila img{
+    width: auto;
+    height: 300px;
+}
+main{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.contador{
+    width: calc(100% - 200px);
+    text-align: center;
+}
+
+}
+.texto{
+    display: grid;
+    grid-template-columns: (2,1fr);
+
+}
+.texto img{
+    width: auto;
+    height: 150px;
+}
+.imagen img{
+width: auto;
+height: 300px;
+align-items: center;
+border-radius: 20px;
+}
+.columnas2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    clear: both;
+    justify-content: space-between;
+    margin-top: 50px;
+    text-align: justify;
+}
+h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}

@@ -1,0 +1,43 @@
+main{
+    background-color: #cb7bf1;
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 70vh;
+}
+.primera_fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.segunda_fila{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.flores{
+    width: 15%;
+}
+.flores *{
+    margin-bottom: 5px;
+}
+.flores img{
+    width: 100%;
+}
+.flores p{
+    text-align: justify;
+}
+.estrellas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.estrellas i{
+    color: yellow;
+    margin: 0 5px;
+}
